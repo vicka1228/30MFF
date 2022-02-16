@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
+
+		<title>30 MFF - Introducing Zoom</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+	</head>
+
+
+	<body>
+
+    <!-- Header Menu of the Page -->
+    <header>
+
+			<!-- This header menu code was adapted from geeksforgeeks.com -->
+      <!-- Top header menu containing
+           logo and Navigation bar -->
+      <div id="top-header">
+
+          <!-- Logo -->
+          <div id="logo">
+              <img src="images/zoom logo.jpeg" alt="zoom logo with zoom written"/>
+          </div>
+
+          <!-- Navigation Menu -->
+          <nav>
+            <div id="menu">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="vision.html">Our Vision</a></li>
+                  <li><a href="watch.html">Watch Now</a></li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+
+    </header>
+
+    <div id="intro">
+      <h1>Introducing Zoom...</h1>
+    </div>
+
+		<!-- The idea of how to create slideshow was taken from W3schools -->
+    <img class="mySlides" src="images/1.png"/>
+    <img class="mySlides" src="images/2.png"/>
+    <img class="mySlides" src="images/3.png"/>
+
+		<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="right" onclick="plusDivs(+1)">&#10095;</button>
+
+		<div class = button>
+		  <center>  <button type=""="button" onclick="window.location.href = 'watch.html';">Watch Now!</button></center>
+		</div>
+
+    <script src="script.js"></script>
+
+	</body>
+</html>
